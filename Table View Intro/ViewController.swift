@@ -28,6 +28,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         //example array
         
+        animalArray.append("Elephant")
         animalArray.append("Polar Bear")
         animalArray.append("Harp Seal")
         animalArray.append("Dog")
@@ -36,6 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         animalArray.append("Tiger")
         animalArray.append("Lion")
         
+        animalImageArray.append(UIImage(named: "elephant.jpg")!)
         animalImageArray.append(UIImage(named: "polarbear.jpg")!)
         animalImageArray.append(UIImage(named: "harpseal.jpeg")!)
         animalImageArray.append(UIImage(named: "dog.jpg")!)
